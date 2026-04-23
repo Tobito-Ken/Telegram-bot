@@ -3,7 +3,7 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
 import random
 
-TOKEN = os.getenv("8762713014:AAG2SZJmuk4c11WvoQTlnY5FWJEuJPGjLw0")
+TOKEN = os.getenv("TOKEN")
 
 responses = [
     "Bro wtf are you even saying 💀",
