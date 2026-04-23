@@ -2,8 +2,13 @@ import os
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
 import random
-
+import os
 TOKEN = os.getenv("TOKEN")
+
+if not TOKEN:
+    print("ERROR: TOKEN NOT FOUND")
+    exit()
+
 
 responses = [
     "Bro wtf are you even saying 💀",
